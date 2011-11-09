@@ -7,6 +7,9 @@ source 'http://rubygems.org'
 
 gem 'mysql2', '~> 0.2.6'
 
+# Style
+gem 'slim'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
