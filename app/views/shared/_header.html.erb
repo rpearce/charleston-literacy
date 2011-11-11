@@ -1,0 +1,22 @@
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="container">
+      <span class='pastelCrayon-company-name'>
+        <!-- # <%= link_to RefinerySetting.find_or_set(:site_name, "Company Name"), root_path %> -->
+        <%= link_to 'Charleston Volunteers for Literacy', root_path, :class => 'brand' %>
+      </span>
+      <ul>
+        <!-- <li><% RefinerySetting.find_or_set(:volunteer_count, "Volunteer Count") %></li> -->
+        <li>Total Students: <a href="#">250</a></li>
+        <!-- <li>Total Volunteers: <a href="#">160</a> | Goal: <a href="#">200</a></li> -->
+        <li>Donations: <a href="#">$3,150</a> | Goal: <a href="#">$50,000</a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+<%= render(:partial => "/shared/menu", :locals => {
+             :dom_id => 'menu',
+             :css => 'menu'
+           }) %>
