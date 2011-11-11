@@ -1,0 +1,12 @@
+<div id="slide-container">
+  <div class="slideshow">
+    <img src='images/kid_reading_refined.jpg' alt='kid_reading2' class="scale-with-grid" />
+    <img src='images/woman-girl-reading_refined.jpg' alt='woman-girl-reading' class="scale-with-grid" style="display:none" />
+  </div>
+  <script type="text/javascript">
+    $('.slideshow').before('<span id="slideshow-controls">').cycle({
+      fx: 'fade',
+      timeout: 8000,
+      pager: '#slideshow-controls'});
+  </script>
+</div>
