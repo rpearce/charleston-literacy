@@ -5,16 +5,16 @@
         <%= link_to RefinerySetting.find_or_set(:site_name, "Company Name"), root_path, :class => 'brand' %>
       </span>
       <ul>
-        <li>Students: <a href="#">250</a></li>
-        <li>Volunteers: <a href="#">160</a> | Goal: <a href="#">200</a></li>
-        <!-- <li>Donations: <a href="#">$3,150</a> | Goal: <a href="#">$50,000</a></li> -->
+        <!-- <li>Students: <%= link_to RefinerySetting.find_or_set(:student_count, "Student Count"), '#' %></li> -->
+        <li>Volunteers: <%= link_to RefinerySetting.find_or_set(:volunteer_count, "Volunteer Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:volunteer_count_goal, "Volunteer Count Goal"), '#' %></li>
+        <li>Volunteers: <%= link_to RefinerySetting.find_or_set(:donations_count, "Donations Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:donations_goal, "Donations Goal"), '#' %></li>
       </ul>
       <div class="clear"></div>
     </div>
   </div>
 </div>
 
-<%= render :partial => "/shared/slideshow"%>
+<%= render :partial => "/shared/slideshow" %>
 
 <%= render(:partial => "/shared/menu", :locals => {
              :dom_id => 'menu',
