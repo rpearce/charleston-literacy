@@ -270,8 +270,13 @@
 
   #slide-container {
     width: auto;
+    height: 277px;
     margin: auto;
-    margin-top: 37px;
+    margin-top: 35px;
+    background: #F5F5F5;
+    -moz-box-shadow: 0 -1px 2px rgba(0,0,0,0.25) inset;
+    -webkit-box-shadow: 0 -1px 2px rgba(0,0,0,0.25), 0 -1px 2px rgba(0,0,0,0.25) inset;
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.25), 0 -1px 2px rgba(0,0,0,0.25) inset;
   }
 
   .slideshow {
