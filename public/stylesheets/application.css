@@ -15,6 +15,12 @@ body {
   line-height: 1;
 }
 
+h1 {
+  font-family: "pastelRegular", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #8C8CFF;
+}
+
 #menu {
   margin: 20px auto auto auto;
   width: 60%;
@@ -62,6 +68,11 @@ body {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
+#menu ul li.selected a:hover {
+  border-top: 0;
+  margin-top: 0;
+}
+
 #menu ul li a:hover {
 /* Can't decide on which hover to use */
 /*
@@ -79,4 +90,20 @@ body {
 */
   border-top: 1px solid #AADF90;
   margin-top: -1px;
+}
+
+#menu ul li ul li a, #menu ul li.selected ul li a {
+  background: none;
+  color: gray;
+  border-bottom: 1px solid #AADF90;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#menu ul li ul li a:hover {
+  color: #7ECE56;
+  border-top: none;
+  margin: 0;
 }
