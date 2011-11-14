@@ -269,9 +269,9 @@
   }
 
   #slide-container {
-    width: 1140px;
+    width: auto;
     margin: auto;
-    margin-top: 37px;
+    margin-top: 20px;
   }
 
   .slideshow {
