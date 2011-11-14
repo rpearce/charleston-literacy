@@ -63,6 +63,8 @@ body {
 }
 
 #menu ul li a:hover {
+/* Can't decide on which hover to use */
+/*
   background: #AADF90;
   -webkit-box-shadow: inset 0 3px 0 black;
   -moz-box-shadow: inset 0 3px 0 black;
@@ -74,4 +76,7 @@ body {
   -moz-border-radius-bottomright: 8px;
   border-bottom-right-radius: 8px;
   text-shadow: 0 -1px 0 rgba(255,255,255,.1);
+*/
+  border-top: 1px solid #AADF90;
+  margin-top: -1px;
 }
