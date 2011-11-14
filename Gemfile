@@ -10,6 +10,10 @@ gem 'mysql2', '~> 0.2.6'
 # Style
 gem 'slim'
 
+# Portfoio & prereqs
+gem 'refinerycms-portfolio', '~> 0.9.9'
+gem 'refinerycms-page-images', '~> 1.0'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
