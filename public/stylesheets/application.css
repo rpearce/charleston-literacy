@@ -17,7 +17,7 @@ body {
 
 #menu {
   margin: 20px auto auto auto;
-  width:75%;
+  width: 70%;
 }
 
 #body_content, #side_body_content {
@@ -48,14 +48,30 @@ body {
 }
 
 #menu ul li.selected a {
+  background: #7ECE56;
   color: #fff;
   -webkit-box-shadow: inset 0 3px 0 black;
   -moz-box-shadow: inset 0 3px 0 black;
   box-shadow: inset 0 0 3px gray;
-  /*text-shadow: 0 -.5px 0 rgba(0,0,0, 0.5);*/
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
-#menu ul li.selected a, #menu ul li a:hover {
-  background: #CCC;
+#menu ul li a:hover {
+  background: #AADF90;
+  -webkit-box-shadow: inset 0 3px 0 black;
+  -moz-box-shadow: inset 0 3px 0 black;
+  box-shadow: inset 0 0 3px gray;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  text-shadow: 0 -1px 0 rgba(255,255,255,.1);
 }
