@@ -38,7 +38,8 @@ html
     = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
     = render :partial => "/shared/slideshow"
     .container
-      == yield
+      .main_content
+        == yield
       footer
         = render :partial => "/shared/footer"
       = render :partial => "/shared/javascripts"
