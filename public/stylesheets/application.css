@@ -22,8 +22,8 @@ h1 {
 }
 
 #menu {
-  margin: 20px auto auto auto;
-  width: 60%;
+  margin-top: 60px;
+  margin-left: 30%;
 }
 
 #body_content, #side_body_content {
