@@ -35,10 +35,12 @@ html
   = render :partial => "/shared/head"
   body
     = render :partial => "/shared/top_bar"
-    = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
+    nav#main
+      = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
     = render :partial => "/shared/slideshow"
     .container
       == yield
+      = render :partial => "/shared/footer_links"
       footer
         = render :partial => "/shared/footer"
       = render :partial => "/shared/javascripts"
