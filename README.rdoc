@@ -7,3 +7,6 @@
     rails server
 
 This will get the app set up locally; however, you will not have most of the images, content, etc.
+
+== Accessing Admin Area
+Go to {localhost:3000/refinery}[http://localhost:3000/refinery] to create a super user and gain access to the admin area.
