@@ -1,0 +1,9 @@
+== How to get set up:
+    git clone git@github.com:rpearce/charleston-literacy.git
+    cd charleston-literacy
+    bundle install
+    rake db:create
+    rake db:migrate
+    rails server
+
+This will get the app set up locally; however, you will not have most of the images, content, etc.
