@@ -37,7 +37,6 @@ html
     = render :partial => "/shared/top_bar"
     nav#main
       = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
-    = render :partial => "/shared/slideshow"
     .container
       == yield
       = render :partial => "/shared/footer_links"
