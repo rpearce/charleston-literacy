@@ -67,9 +67,9 @@ h1 {
 #menu ul li.selected a {
   background: #7ECE56;
   color: #fff;
-  -webkit-box-shadow: inset 0 3px 0 #707070;
-  -moz-box-shadow: inset 0 3px 0 #707070;
-  box-shadow: inset 0 0 3px #707070;
+  -webkit-box-shadow: inset 0 1px 2px #707070;
+  -moz-box-shadow: inset 0 1px 2px #707070;
+  box-shadow: inset 0 1px 2px #707070;
   -webkit-border-top-left-radius: 8px;
   -moz-border-radius-topleft: 8px;
   border-top-left-radius: 8px;
@@ -122,4 +122,10 @@ ul.footer-links a {
 
 ul.footer-links a:hover {
   color: #59A5DB;
+}
+
+.social-icon {
+  margin-left: 20px;
+  width: 32px;
+  height: 32px;
 }
