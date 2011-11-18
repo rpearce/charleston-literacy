@@ -50,6 +50,7 @@ h1 {
   display: block;
   z-index: 99999;
   position: absolute;
+  margin-left: -80px;
 }
 
 #menu ul li a {
