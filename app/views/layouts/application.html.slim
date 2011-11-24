@@ -35,10 +35,10 @@ html
   = render :partial => "/shared/head"
   body
     = render :partial => "/shared/top_bar"
-    / .center
-      / img src="../images/CHSVolunteersForLiteracyHeader.jpg" width="300px" height="100px"
     nav#main
       = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
+      = render :partial => '/shared/social_media_links'
+    div class='clear'
     .container
       == yield
       = render :partial => "/shared/footer_links"
