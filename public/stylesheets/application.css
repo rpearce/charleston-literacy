@@ -17,11 +17,9 @@ body {
 }
 
 h1 {
-/*  font-family: "pastelRegular", Helvetica, Arial, sans-serif;*/
-  font-family: "Times New Roman";
+  font-family: inherit;
   font-size: 40px;
   color: #003A69;
-/*  color: #8C8CFF;*/
 }
 
 #company-name{
