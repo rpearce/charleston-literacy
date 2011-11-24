@@ -54,7 +54,7 @@
 
   .topbar {
     height: 37px;
-    position: fixed;
+/*    position: fixed;*/
     top: 0;
     left: 0;
     right: 0;
@@ -92,14 +92,15 @@
   }
 
   .topbar h3 a, .topbar .brand {
+/*    font-family: "Monotype Corsiva", cursive;*/
     float: left;
+    font-size: 30px;
     display: block;
     padding: 6px 20px 0 0;
     color: #fff;
-    font-size: 35px;
-/*    font-family: "Monotype Corsiva", cursive;*/
     font-weight: 200;
     line-height: 1;
+
   }
 
   .topbar a {
@@ -120,8 +121,9 @@
     display: block;
     float: left;
     color: #808080;
-    padding: 10px;
-    color: #BFBFBF;
+    padding: 10px 10px 0 10px;
+/*    color: #BFBFBF;*/
+    color: #CCC;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     }
 
@@ -255,7 +257,7 @@
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
 /*  li { line-height: 18px; margin-bottom: 12px; }*/
-  li { line-height: 18px;}
+/*  li { line-height: 18px;}*/
   ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
 

@@ -24,16 +24,13 @@ h1 {
 /*  color: #8C8CFF;*/
 }
 
+#company-name{
+}
+
 #main {
   margin-top: 0px;
   width: 940px;
   margin: auto;
-}
-
-#menu {
-  margin-top: 60px;
-  margin-left: 100px;
-  float: left;
 }
 
 #body_content, #side_body_content {
@@ -44,6 +41,12 @@ h1 {
 
 #body_content_left {
   width: auto;
+}
+
+#menu {
+  margin-top: 5px;
+  margin-left: 100px;
+  float: left;
 }
 
 #menu ul {
@@ -70,14 +73,16 @@ h1 {
 }
 
 #menu ul li a:hover {
-  border-top: 1px solid #AADF90;
+/*  border-top: 1px solid #AADF90;*/
+  border-top: 1px solid #fff;
   margin-top: -1px;
 }
 
 #menu ul li.selected a {
 /*  background: #7ECE56;*/
-  background: #4499FF;
-/*    background-color: #00789c;*/
+/*  background: #4499FF;*/
+  background: #D1EEF8;
+
 /*  background-repeat: repeat-x;
   background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
   background-image: -moz-linear-gradient(top, #00789c, #00A0D1);
@@ -87,7 +92,8 @@ h1 {
   background-image: -o-linear-gradient(top, #00789c, #00A0D1);
   background-image: linear-gradient(top, #00789c, #00A0D1);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-*/  color: #fff;
+*/
+  color: #404040;
   -webkit-box-shadow: inset 0 1px 2px #707070;
   -moz-box-shadow: inset 0 1px 2px #707070;
   box-shadow: inset 0 1px 2px #707070;
@@ -115,7 +121,8 @@ h1 {
   font-weight: none;
   border-top: 0;
   margin-top: 0;
-  border-bottom: 1px solid #AADF90;
+/*  border-bottom: 1px solid #AADF90;*/
+  border-bottom: 1px solid #fff;
   box-shadow: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -123,16 +130,22 @@ h1 {
 }
 
 #menu ul li ul li a:hover {
-  color: #4D882F;
+/*  color: #4D882F;*/
+  color: inherit;
 }
 
 #media {
-  margin-top: 60px;
-  display: inline-block ;
+  margin-top: 10px;
 }
 
 #media a {
   text-decoration: none;
+}
+
+.social-icon {
+  margin-left: 20px;
+  width: 32px;
+  height: 32px;
 }
 
 .link-header {
@@ -152,10 +165,4 @@ ul.footer-links a {
 
 ul.footer-links a:hover {
   color: #59A5DB;
-}
-
-.social-icon {
-  margin-left: 20px;
-  width: 32px;
-  height: 32px;
 }
