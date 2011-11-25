@@ -20,6 +20,7 @@ h1 {
   font-family: inherit;
   font-size: 40px;
   color: #003A69;
+  border-bottom: 1px solid #404040;
 }
 
 #company-name{
