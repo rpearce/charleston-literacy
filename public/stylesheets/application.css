@@ -42,6 +42,11 @@ h1 {
   width: auto;
 }
 
+#body_content_left img {
+  float: right;
+  margin: 4px;
+}
+
 #menu {
   margin-top: 5px;
   margin-left: 100px;

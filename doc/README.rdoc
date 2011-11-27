@@ -12,9 +12,7 @@ This will get the app set up locally; however, you will not have most of the ima
 Go to http://localhost:3000/refinery to create a super user and gain access to the admin area.
 
 == To-do List
-* Add interesting border styling (or basic img) to body content area
 * Figure out what links at the bottom are going to be/how to organize
-* Add Facebook, RSS, Twitter, etc. icons somewhere on the page
 * Add "Donate!" button somewhere ominous on the page
 * Do something about the side body content photo requested
 

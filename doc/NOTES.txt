@@ -1,11 +1,3 @@
-greenish gray darker background
-
-topbar---change
-
-h1 colors
-
-blue - green - purple ---bad color mix
-
 GOOD IDEA
 ---------
 each image in the slideshow represents a certain page (like donate)
