@@ -1,15 +1,32 @@
-<section class="topbar">
+<section id="counts" class="center">
+  <ul>
+    <li>Students: <%= link_to RefinerySetting.find_or_set(:student_count, "Student Count"), '#' %></li>
+    <li>Volunteers: <%= link_to RefinerySetting.find_or_set(:volunteer_count, "Volunteer Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:volunteer_count_goal, "Volunteer Count Goal"), '#' %></li>
+    <li>Donations: <%= link_to RefinerySetting.find_or_set(:donations_count, "Donations Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:donations_goal, "Donations Goal"), '#' %></li>
+  </ul>
+  <div class="clear"></div>
+</section>
+
+<section id="logo" class="center">
+  <img src="/images/logo.png" />
+</section>
+
+
+<!-- <section class="topbar">
   <div class="topbar-inner">
-    <div class="topbar-container">
+    <div class="topbar-container center">
       <div id="company-name">
         <%= link_to RefinerySetting.find_or_set(:site_name, "Company Name"), root_path, :class => 'brand' %>
       </div>
-      <ul>
-        <!-- <li>Students: <%= link_to RefinerySetting.find_or_set(:student_count, "Student Count"), '#' %></li> -->
-        <li>Volunteers: <%= link_to RefinerySetting.find_or_set(:volunteer_count, "Volunteer Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:volunteer_count_goal, "Volunteer Count Goal"), '#' %></li>
-        <li>Donations: <%= link_to RefinerySetting.find_or_set(:donations_count, "Donations Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:donations_goal, "Donations Goal"), '#' %></li>
-      </ul>
-      <div class="clear"></div>
     </div>
   </div>
-</section>
+</section> -->
+
+<!--
+<ul>
+  <li>Students: <%= link_to RefinerySetting.find_or_set(:student_count, "Student Count"), '#' %></li>
+  <li>Volunteers: <%= link_to RefinerySetting.find_or_set(:volunteer_count, "Volunteer Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:volunteer_count_goal, "Volunteer Count Goal"), '#' %></li>
+  <li>Donations: <%= link_to RefinerySetting.find_or_set(:donations_count, "Donations Count"), '#' %> | Goal: <%= link_to RefinerySetting.find_or_set(:donations_goal, "Donations Goal"), '#' %></li>
+</ul>
+<div class="clear"></div>
+-->
