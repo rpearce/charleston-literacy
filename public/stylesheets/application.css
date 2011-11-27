@@ -190,3 +190,9 @@ ul.footer-links a {
 ul.footer-links a:hover {
   color: #59A5DB;
 }
+
+#donate-now {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}

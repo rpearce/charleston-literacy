@@ -34,6 +34,7 @@ html
     = csrf_meta_tag
   = render :partial => "/shared/head"
   body
+    = render :partial => "/shared/donate_now"
     = render :partial => "/shared/top_bar"
     nav#main
       = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
