@@ -36,9 +36,11 @@ html
   body
     = render :partial => "/shared/donate_now"
     = render :partial => "/shared/top_bar"
-    nav#main
-      = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
-      = render :partial => '/shared/social_media_links'
+    .main
+      nav#main
+        = render(:partial => "/shared/menu", :locals => { :dom_id => 'menu', :css => 'menu' })
+        = render :partial => '/shared/social_media_links'
+      .bg-behind_bar
     div class='clear'
     .container
       == yield
