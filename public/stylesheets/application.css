@@ -208,3 +208,11 @@ ul.footer-links a:hover {
   right: 10px;
   bottom: 10px;
 }
+
+.donate-button {
+  text-decoration: none;
+  background: #269841;
+  color: #fff !important;
+  padding: 5px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
