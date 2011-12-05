@@ -210,7 +210,7 @@ ul.footer-links a:hover {
   top: 50%;
 }
 
-.donate-button {
+a.donate-button {
   text-decoration: none;
   background: #81D0EC;
   color: #fff !important;
