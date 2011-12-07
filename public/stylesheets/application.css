@@ -58,12 +58,12 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.bg-behind_bar {
+/*.bg-behind_bar {
   background: url(/images/bg-behind_bar.png) no-repeat scroll left top transparent;
   height: 10px;
   margin: auto;
   width: 808px;
-}
+}*/
 
 #menu {
 /*  margin-top: 5px;*/
@@ -166,8 +166,7 @@ body {
 
 .social-icon {
   margin-left: 20px;
-  width: 32px;
-  height: 32px;
+  display: inline-block;
 }
 
 .link-header {
@@ -221,4 +220,78 @@ a.donate-button {
   color: #fff !important;
   padding: 5px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Sprite Stuff */
+.sprite {
+    background: url(/images/sprite.png) no-repeat;
+}
+
+.sprite-apple-touch-icon-114x114-png {
+    width: 113px;
+    height: 114px;
+    background-position: -554px -0px;
+}
+
+.sprite-apple-touch-icon-72x72-png {
+    width: 72px;
+    height: 72px;
+    background-position: -668px -0px;
+}
+
+.sprite-apple-touch-icon-png {
+    width: 57px;
+    height: 57px;
+    background-position: -741px -0px;
+}
+
+.sprite-arrow-png {
+    width: 25px;
+    height: 17px;
+    display: inline-block;
+    margin-bottom: -3px;
+    background-position: -668px -91px;
+}
+
+.sprite-bg-behind_bar-png {
+    width: 808px;
+    height: 10px;
+    background-position: -0px -121px;
+}
+
+.sprite-blog_wood_icon-png {
+    width: 32px;
+    height: 32px;
+    background-position: -66px -132px;
+}
+
+.sprite-facebook_wood_icon-png {
+    width: 32px;
+    height: 32px;
+    background-position: -741px -58px;
+}
+
+.sprite-googleplus_wood_icon-png {
+    width: 32px;
+    height: 32px;
+    background-position: -774px -58px;
+}
+
+.sprite-logo-png {
+    width: 553px;
+    height: 120px;
+    background-position: -0px -0px;
+    margin: auto;
+}
+
+.sprite-rss_wood_icon-png {
+    width: 32px;
+    height: 32px;
+    background-position: -0px -132px;
+}
+
+.sprite-twitter_wood_icon-png {
+    width: 32px;
+    height: 32px;
+    background-position: -33px -132px;
 }
