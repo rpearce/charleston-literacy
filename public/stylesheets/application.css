@@ -48,6 +48,8 @@ body {
 .nav-container {
   width: 808px;
   margin: auto;
+  position: relative;
+  z-index: 1;
 }
 
 #main {
@@ -314,7 +316,7 @@ a.donate-button {
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 787px; margin: auto; padding: 0; margin-bottom: 60px; background: #fff; margin-top: -20px; z-index: -9999; }
+    .container                                  { position: relative; width: 787px; margin: auto; padding: 0; margin-bottom: 60px; background: #fff; margin-top: -20px; z-index: 0;} /* z-index: -9999; */
     .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
 
