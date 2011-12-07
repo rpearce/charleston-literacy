@@ -12,8 +12,7 @@ This will get the app set up locally; however, you will not have most of the ima
 Go to http://localhost:3000/refinery to create a super user and gain access to the admin area.
 
 == To-do List
-* Figure out what links at the bottom are going to be/how to organize
-* Add "Donate!" button somewhere ominous on the page
-* Do something about the side body content photo requested
+* Fix issue where nothing can be selected beneath the nav bar. Wtf?
+* Add more functionality to slideshow and make it snazzy.
 
 * Once done with these, consult the docs again
