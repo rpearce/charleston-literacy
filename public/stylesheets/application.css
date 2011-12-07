@@ -189,6 +189,10 @@ body {
   width: auto;
 }
 
+#body_content_left ul {
+  padding-left: 20px;
+}
+
 #body_content_left img {
   float: right;
   margin: 4px;
