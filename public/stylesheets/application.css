@@ -54,6 +54,7 @@ body {
 .nav-container {
   width: 808px;
   margin: auto;
+  margin-top: 10px;
   position: relative;
   z-index: 1;
 }
@@ -160,7 +161,10 @@ body {
 }
 
 #media {
-  margin-top: 10px;
+  padding-top: 3px;
+  margin-bottom: -10px;
+  margin-right: 25px;
+  float: right;
 }
 
 #media a {
