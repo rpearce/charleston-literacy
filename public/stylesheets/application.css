@@ -190,7 +190,8 @@ body {
 }
 
 #body_content_left ul {
-  padding-left: 20px;
+  padding-left: 25px;
+  list-style: square outside;
 }
 
 #body_content_left img {
